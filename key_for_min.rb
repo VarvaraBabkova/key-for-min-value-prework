@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   return nil if name_hash == {}
-  min_price = Integer.max
+  min_price = 1000
   min_name = ""
 
   name_hash.collect do |name, price|
